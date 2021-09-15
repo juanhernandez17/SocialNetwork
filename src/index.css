@@ -1,0 +1,123 @@
+/*=============================================*/
+/*              Generic Styles                 */
+
+body {
+  background-color: #9de0a7 !important;
+  flex: auto; 
+}
+
+.top-buff {
+  margin-top: 5em;
+}
+
+.white-text {
+  color: white;
+}
+
+.ui.basic.button.darkgreen-button {
+  background-color: #449951 !important;
+  color: #eee !important;
+}
+
+.ui.basic.button.darkgreen-button:hover {
+  background-color: #368041 !important;
+  color: white !important;
+}
+
+.ui.basic.button.green-button {
+  background-color: #4caf50 !important;
+  color: #fff !important;
+}
+
+.ui.basic.button.green-button:hover {
+  background-color: #449951 !important;
+  color: white !important;
+}
+
+
+/*=============================================*/
+/*             Timepicker Styles               */
+
+.react-datepicker__time-container .react-datepicker__time .react-datepicker__time-box ul.react-datepicker__time-list {
+  padding-left: 0;
+  padding-right: 0;
+  width: 100px;
+}
+
+.react-datepicker__input-container {
+  width: inherit;
+}
+
+.react-datepicker-wrapper {
+  width: 100%;
+}
+
+
+/*=============================================*/
+/*             Navbar Styles                   */
+
+/* Make the our signature green */
+.ui.fixed.menu.navbar {
+  background-color: #449951 !important;
+  height: 4em;
+}
+
+.ui.main.container,
+.main.segment {
+  margin-top: 7em;
+}
+
+.item.navlink {
+  background-color: white !important;
+}
+
+.item.highlight-navlink {
+  background-color: grey !important;
+}
+
+.ui.center.aligned.segment.attendance-preview {
+  background-color: #f5f5f5;
+}
+
+.masthead .ui.menu .ui.button,
+.ui.menu a.ui.inverted.button {
+  margin-left: 0.5em;
+}
+
+.ui.menu .item>img:not(.ui) {
+  margin-right: 1.5em !important;
+}
+
+.ui.menu:not(.vertical) .item>.button {
+  margin-left: 0.5em;
+}
+
+/* Change the text on the dropdown */
+.ui.top.right.pointing.dropdown.navbar-dropdown {
+  font-weight: bold;
+  color: white;
+}
+
+.ui.avatar.right.spaced.image {
+  transform: scale(1.5);
+  margin-right: 20px;
+}
+
+
+/*=============================================*/
+/*                Feed Styles                  */
+
+.ui.basic.button.feed-button {
+  background-color: #4caf50 !important;
+  color: white !important;
+  margin-top: 15px !important;
+}
+
+
+/*=============================================*/
+/*              Comment Styles                 */
+
+.ui.comments .comment .comments {
+  padding-bottom: 0 !important;
+  padding-left: 2em !important;
+}
